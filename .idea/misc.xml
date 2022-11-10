@@ -3,7 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/bglag/AndroidStudioProjects/CountryDetail/app/src/main/res/layout/activity_main.xml" value="0.2359375" />
+        <entry key="..\:/Users/bglag/AndroidStudioProjects/CountryDetail/app/src/main/res/drawable/filter.xml" value="0.2025" />
+        <entry key="..\:/Users/bglag/AndroidStudioProjects/CountryDetail/app/src/main/res/drawable/ic_circle.xml" value="0.2025" />
+        <entry key="..\:/Users/bglag/AndroidStudioProjects/CountryDetail/app/src/main/res/drawable/ic_search.xml" value="0.2025" />
+        <entry key="..\:/Users/bglag/AndroidStudioProjects/CountryDetail/app/src/main/res/drawable/image_btn.xml" value="0.2025" />
+        <entry key="..\:/Users/bglag/AndroidStudioProjects/CountryDetail/app/src/main/res/drawable/image_btn_night.xml" value="0.2025" />
+        <entry key="..\:/Users/bglag/AndroidStudioProjects/CountryDetail/app/src/main/res/drawable/moon.xml" value="0.2025" />
+        <entry key="..\:/Users/bglag/AndroidStudioProjects/CountryDetail/app/src/main/res/layout/activity_details.xml" value="0.2359375" />
+        <entry key="..\:/Users/bglag/AndroidStudioProjects/CountryDetail/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/bglag/AndroidStudioProjects/CountryDetail/app/src/main/res/layout/rv_layout.xml" value="0.6" />
       </map>
     </option>
   </component>

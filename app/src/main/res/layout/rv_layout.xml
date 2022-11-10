@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/iv_flag"
+        android:layout_width="@dimen/rv_image_size"
+        android:layout_height="@dimen/rv_image_size"
+        android:contentDescription="@string/search_country"
+        tools:src="@drawable/filter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tv_country"
+        style="@style/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_mid"
+        android:padding="@dimen/text_padding"
+        app:layout_constraintStart_toEndOf="@+id/iv_flag"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Nigeria" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tv_capital"
+        style="@style/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/text_padding"
+        android:layout_marginStart="@dimen/margin_mid"
+        app:layout_constraintStart_toEndOf="@+id/iv_flag"
+        app:layout_constraintTop_toBottomOf="@id/tv_country"
+        tools:text="Abuja" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

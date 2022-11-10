@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CountryDetail</string>
+    <string name="languages">Языки</string>
+    <string name="search_country">Страна поиска</string>
+    <string name="filter">Фильтр</string>
+    <string name="explore">Исследовать</string>
+    <string name="population">Население:</string>
+    <string name="region">Область, край:</string>
+    <string name="capital">Столица:</string>
+    <string name="motto">Девиз:</string>
+    <string name="official_language">Официальный язык:</string>
+    <string name="ethnic_group">Этническая группа:</string>
+    <string name="religion">Религия:</string>
+    <string name="government">Правительство:</string>
+    <string name="timezone">Часовой пояс:</string>
+    <string name="date_format">Формат даты:</string>
+    <string name="dialing_code">Телефонный код:</string>
+    <string name="driver_s_side">Сторона водителя:</string>
+</resources>

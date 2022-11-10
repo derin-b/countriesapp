@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailsActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:layout_constraintTop_toTopOf="parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Nigeria"
+                android:gravity="center"/>
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/iv_images"
+        app:shapeAppearanceOverlay="@style/RoundedSquare"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/filter"
+        app:layout_constraintTop_toBottomOf="@id/toolbar"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tv_population"
+        style="@style/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_mid"
+        android:text="@string/population"
+        android:padding="@dimen/text_padding"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/iv_images"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tv_population_ans"
+        style="@style/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_mid"
+        tools:text="@string/population"
+        android:padding="@dimen/text_padding"
+        app:layout_constraintStart_toEndOf="@id/tv_population"
+        app:layout_constraintTop_toBottomOf="@id/iv_images"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tv_region"
+        style="@style/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/region"
+        android:padding="@dimen/text_padding"
+        android:layout_marginTop="@dimen/text_padding"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_population"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tv_region_ans"
+        style="@style/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="@string/region"
+        android:padding="@dimen/text_padding"
+        android:layout_marginTop="@dimen/text_padding"
+        app:layout_constraintStart_toEndOf="@id/tv_region"
+        app:layout_constraintTop_toBottomOf="@id/tv_population"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tv_capital"
+        style="@style/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/capital"
+        android:padding="@dimen/text_padding"
+        android:layout_marginTop="@dimen/text_padding"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_region"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tv_capital_ans"
+        style="@style/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="@string/capital"
+        android:padding="@dimen/text_padding"
+        android:layout_marginTop="@dimen/text_padding"
+        app:layout_constraintStart_toEndOf="@id/tv_capital"
+        app:layout_constraintTop_toBottomOf="@id/tv_region"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tv_motto"
+        style="@style/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/motto"
+        android:padding="@dimen/text_padding"
+        android:layout_marginTop="@dimen/text_padding"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_capital"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tv_motto_ans"
+        style="@style/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/text_padding"
+        android:layout_marginTop="@dimen/text_padding"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_motto"
+        app:layout_constraintStart_toEndOf="@id/tv_motto"
+        app:layout_constraintTop_toBottomOf="@+id/tv_capital"
+        tools:text="@string/motto" />
+
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tv_language"
+        style="@style/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_mid"
+        android:text="@string/official_language"
+        android:padding="@dimen/text_padding"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_motto"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tv_language_ans"
+        style="@style/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_mid"
+        tools:text="@string/official_language"
+        android:padding="@dimen/text_padding"
+        app:layout_constraintStart_toEndOf="@id/tv_language"
+        app:layout_constraintTop_toBottomOf="@id/tv_motto_ans"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tv_ethnic"
+        style="@style/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ethnic_group"
+        android:padding="@dimen/text_padding"
+        android:layout_marginTop="@dimen/text_padding"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_language_ans"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tv_ethnic_ans"
+        style="@style/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="@string/ethnic_group"
+        android:padding="@dimen/text_padding"
+        android:layout_marginTop="@dimen/text_padding"
+        app:layout_constraintStart_toEndOf="@id/tv_ethnic"
+        app:layout_constraintTop_toBottomOf="@id/tv_language"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tv_religion"
+        style="@style/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/religion"
+        android:padding="@dimen/text_padding"
+        android:layout_marginTop="@dimen/text_padding"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_ethnic"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tv_religion_ans"
+        style="@style/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="@string/religion"
+        android:layout_marginTop="@dimen/text_padding"
+        android:padding="@dimen/text_padding"
+        app:layout_constraintStart_toEndOf="@id/tv_religion"
+        app:layout_constraintTop_toBottomOf="@id/tv_ethnic"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tv_government"
+        style="@style/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/government"
+        android:padding="@dimen/text_padding"
+        android:layout_marginTop="@dimen/text_padding"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_religion"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tv_government_ans"
+        style="@style/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="@string/government"
+        android:padding="@dimen/text_padding"
+        android:layout_marginTop="@dimen/text_padding"
+        app:layout_constraintStart_toEndOf="@id/tv_government"
+        app:layout_constraintTop_toBottomOf="@id/tv_religion"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tv_timezone"
+        style="@style/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_mid"
+        android:text="@string/timezone"
+        android:padding="@dimen/text_padding"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_government"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tv_timezone_ans"
+        style="@style/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_mid"
+        tools:text="@string/timezone"
+        android:padding="@dimen/text_padding"
+        app:layout_constraintStart_toEndOf="@id/tv_timezone"
+        app:layout_constraintTop_toBottomOf="@id/tv_government"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tv_date"
+        style="@style/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/date_format"
+        android:padding="@dimen/text_padding"
+        android:layout_marginTop="@dimen/text_padding"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_timezone"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tv_date_ans"
+        style="@style/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="@string/date_format"
+        android:padding="@dimen/text_padding"
+        android:layout_marginTop="@dimen/text_padding"
+        app:layout_constraintStart_toEndOf="@id/tv_date"
+        app:layout_constraintTop_toBottomOf="@id/tv_timezone"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tv_dial"
+        style="@style/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dialing_code"
+        android:padding="@dimen/text_padding"
+        android:layout_marginTop="@dimen/text_padding"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_date"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tv_dial_ans"
+        style="@style/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dialing_code"
+        android:padding="@dimen/text_padding"
+        android:layout_marginTop="@dimen/text_padding"
+        app:layout_constraintStart_toEndOf="@id/tv_dial"
+        app:layout_constraintTop_toBottomOf="@id/tv_date"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tv_drive"
+        style="@style/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/driver_s_side"
+        android:layout_marginTop="@dimen/text_padding"
+        android:padding="@dimen/text_padding"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_dial"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tv_drive_ans"
+        style="@style/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/driver_s_side"
+        android:layout_marginTop="@dimen/text_padding"
+        android:padding="@dimen/text_padding"
+        app:layout_constraintStart_toEndOf="@id/tv_drive"
+        app:layout_constraintTop_toBottomOf="@id/tv_dial"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

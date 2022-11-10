@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CountryDetail</string>
+    <string name="languages">línguas</string>
+    <string name="search_country">Pesquisar país</string>
+    <string name="filter">Filtro</string>
+    <string name="explore">Explorar</string>
+    <string name="population">População:</string>
+    <string name="region">Região:</string>
+    <string name="capital">Capital:</string>
+    <string name="motto">Lema:</string>
+    <string name="official_language">Língua oficial:</string>
+    <string name="ethnic_group">Grupo étnico:</string>
+    <string name="religion">Religião:</string>
+    <string name="government">Governo:</string>
+    <string name="timezone">Fuso horário:</string>
+    <string name="date_format">Formato de data:</string>
+    <string name="dialing_code">Código de discagem:</string>
+    <string name="driver_s_side">Lado do motorista:</string>
+</resources>

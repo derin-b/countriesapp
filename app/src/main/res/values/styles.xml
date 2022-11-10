@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="RoundedSquare">
+        <item name="cornerSize">10%</item>
+    </style>
+
+
+    <style name="text1" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textSize">12sp</item>
+        <item name="fontWeight">500</item>
+        <item name="fontFamily">@font/axiforma_book</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="text2" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textSize">12sp</item>
+        <item name="fontWeight">500</item>
+        <item name="fontFamily">@font/axiforma_regular</item>
+    </style>
+
+    <style name="text3" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textSize">14sp</item>
+        <item name="fontWeight">500</item>
+        <item name="fontFamily">@font/axiforma_semibold</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

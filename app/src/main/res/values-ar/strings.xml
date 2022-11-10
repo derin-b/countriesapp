@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CountryDetail</string>
+    <string name="languages">اللغات</string>
+    <string name="search_country">بحث البلد</string>
+    <string name="filter">يبحث</string>
+    <string name="explore">يكتشف</string>
+    <string name="population">سكان:</string>
+    <string name="region">منطقة:</string>
+    <string name="capital">رأس المال:</string>
+    <string name="motto">شعار:</string>
+    <string name="official_language">لغة رسمية:</string>
+    <string name="ethnic_group">المجموعة العرقية:</string>
+    <string name="government">"حكومة: "</string>
+    <string name="timezone">وحدة زمنية:</string>
+    <string name="date_format">صيغة التاريخ:</string>
+    <string name="driver_s_side">جانب السائق:</string>
+    <string name="dialing_code">رمز الاتصال:</string>
+    <string name="religion">دِين:</string>
+</resources>

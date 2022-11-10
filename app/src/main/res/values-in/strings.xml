@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CountryDetail</string>
+    <string name="languages">Bahasa</string>
+    <string name="search_country">Cari Negara</string>
+    <string name="filter">Saring</string>
+    <string name="explore">Mengeksplorasi</string>
+    <string name="population">Populasi:</string>
+    <string name="region">Wilayah:</string>
+    <string name="capital">Modal:</string>
+    <string name="motto">Motto:</string>
+    <string name="official_language">Bahasa resmi:</string>
+    <string name="ethnic_group">Suku:</string>
+    <string name="religion">Agama:</string>
+    <string name="government">Pemerintah:</string>
+    <string name="timezone">Zona waktu:</string>
+    <string name="date_format">Format tanggal:</string>
+    <string name="dialing_code">Kode panggilan:</string>
+    <string name="driver_s_side">Sisi pengemudi:</string>
+</resources>

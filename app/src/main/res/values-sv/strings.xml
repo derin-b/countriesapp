@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CountryDetail</string>
+    <string name="languages">språk</string>
+    <string name="search_country">Sök land</string>
+    <string name="filter">Filtrera</string>
+    <string name="explore">Utforska</string>
+    <string name="population">Befolkning:</string>
+    <string name="driver_s_side">Förarsidan:</string>
+    <string name="dialing_code">Uppringningskod:</string>
+    <string name="date_format">Datumformat:</string>
+    <string name="timezone">Tidszon:</string>
+    <string name="government">Regering:</string>
+    <string name="religion">Religion:</string>
+    <string name="ethnic_group">Etnisk grupp:</string>
+    <string name="official_language">Officiellt språk:</string>
+    <string name="motto">Motto:</string>
+    <string name="capital">Huvudstad:</string>
+    <string name="region">Område:</string>
+</resources>

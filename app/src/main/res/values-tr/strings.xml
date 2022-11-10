@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CountryDetail</string>
+    <string name="languages">Diller</string>
+    <string name="search_country">Ülke Ara</string>
+    <string name="filter">Filtre</string>
+    <string name="explore">Keşfetmek</string>
+    <string name="population">Nüfus:</string>
+    <string name="region">Bölge:</string>
+    <string name="capital">Başkent:</string>
+    <string name="motto">sloganı:</string>
+    <string name="official_language">Resmi dil:</string>
+    <string name="ethnic_group">Etnik grup:</string>
+    <string name="religion">Din:</string>
+    <string name="government">Devlet:</string>
+    <string name="timezone">Saat dilimi:</string>
+    <string name="date_format">Tarih formatı:</string>
+    <string name="dialing_code">Telefon kodu:</string>
+    <string name="driver_s_side">Sürücü tarafı:</string>
+</resources>
